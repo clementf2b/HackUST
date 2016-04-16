@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingBottom="10dp" >
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/pImage"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="8dp"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/pName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/pImage"
+        android:padding="5dp"
+        android:textColor="@color/lbl_product_name"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pName"
+        android:layout_toRightOf="@id/pImage"
+        android:padding="5dp"
+        android:textColor="@color/lbl_product_description" />
+
+    <TextView
+        android:id="@+id/pPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pDescription"
+        android:layout_toRightOf="@id/pImage"
+        android:padding="5dp"
+        android:textColor="@color/lbl_product_description" />
+
+</RelativeLayout>

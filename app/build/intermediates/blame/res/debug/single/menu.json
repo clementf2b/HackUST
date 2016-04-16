@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/clementng/Downloads/HackUST/app/build/intermediates/res/merged/debug/menu/scan_menu.xml",
+        "source": "/Users/clementng/Downloads/HackUST/app/src/main/res/menu/scan_menu.xml"
+    },
+    {
+        "merged": "/Users/clementng/Downloads/HackUST/app/build/intermediates/res/merged/debug/menu/menu.xml",
+        "source": "/Users/clementng/Downloads/HackUST/app/src/main/res/menu/menu.xml"
+    }
+]
