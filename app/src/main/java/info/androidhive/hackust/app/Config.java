@@ -15,9 +15,6 @@ public class Config {
 
 	// Our php+mysql server urls
 	public static final String URL_PRODUCTS = "http://10.89.133.147/PayPalServer/v1/products";
-	public static final String URL_WATER = "http://10.89.133.147/PayPalServer/v1/water";
-	public static final String URL_ELETRIC = "http://10.89.133.147/PayPalServer/v1/eletric";
-	public static final String URL_PHONE = "http://10.89.133.147/PayPalServer/v1/phone";
 	public static final String URL_VERIFY_PAYMENT = "http://10.89.133.147/PayPalServer/v1/verifyPayment";
 
 }
